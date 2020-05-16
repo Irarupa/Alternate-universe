@@ -21,13 +21,13 @@ function setup() {
    sun =  createSprite(400, 400, 50, 50);
   sun.addImage("sun",sunImg);
    sun.scale= 0.2;
-   sun.debug = true;
+   
   
   star1 = createSprite(400, 80, 50, 50);
    star1.addImage(star1Img);
    star1.scale = 0.12;
   // star1.shapeColor = "white";
- star1.debug = true;
+ 
 
   star2 = createSprite(600, 600, 50, 50);
   star2.addImage("mer",star2Img);
